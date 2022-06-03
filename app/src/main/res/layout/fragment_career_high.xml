@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:paddingTop="50dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    tools:context=".ui.CareerHighFragment">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/borderfill">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/stat"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:background="@drawable/borderfill"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/game"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/white"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/points"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            tools:ignore="InvalidId,RtlSymmetry"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:background="@drawable/border"
+            android:id="@+id/points"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/points"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/black"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/assists"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            tools:ignore="InvalidId,RtlSymmetry"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:background="@drawable/border"
+            android:id="@+id/assists"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/assists"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/black"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/rebounds"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            tools:ignore="InvalidId,RtlSymmetry"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:background="@drawable/border"
+            android:id="@+id/rebounds"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/rebounds"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/black"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/blocks"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            tools:ignore="InvalidId,RtlSymmetry"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:background="@drawable/border"
+            android:id="@+id/blocks"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/blocks"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/black"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/steals"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            tools:ignore="InvalidId,RtlSymmetry"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:background="@drawable/border"
+            android:id="@+id/steals"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/steals"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/black"
+            />
+    </TableRow>
+
+</TableLayout>

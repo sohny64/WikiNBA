@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">WikiNBA</string>
+    <string name="title_activity_team">TeamActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_time_points_leader">All-Time Points Leader</string>
+    <string name="all_time_assists_leader">All-Time Assists Leader</string>
+    <string name="all_time_rebounds_leader">All-Time Rebounds Leader</string>
+    <string name="all_time_blocks_leader">All-Time Blocks Leader</string>
+    <string name="all_time_steals_leader">All-Time Steals Leader</string>
+    <string name="about">About</string>
+    <string name="roster">Roster</string>
+    <string name="player_records">Player Records</string>
+    <string name="team_logo">Team Logo</string>
+    <string name="position">Position</string>
+    <string name="number">Number</string>
+    <string name="age">Age</string>
+    <string name="name">Name</string>
+    <string name="founded_on">Founded on</string>
+    <string name="city">City</string>
+    <string name="arena">Arena</string>
+    <string name="head_coach">Head Coach</string>
+    <string name="titles">Titles</string>
+    <string name="g_league_affiliation">G-League Affiliation</string>
+    <string name="retired_jerseys">Retired Jerseys</string>
+    <string name="notable_players">Notable Players</string>
+    <string name="stat">Stat</string>
+    <string name="game">Game</string>
+    <string name="points">Points</string>
+    <string name="assists">Assists</string>
+    <string name="rebounds">Rebounds</string>
+    <string name="blocks">Blocks</string>
+    <string name="steals">Steals</string>
+    <string name="experience">Experience</string>
+    <string name="draft">Draft</string>
+    <string name="championships">Championships</string>
+    <string name="mvp_titles">MVP titles</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="nationality">Nationality</string>
+    <string name="birth">Birth</string>
+    <string name="view_all_players">View all Players</string>
+    <string name="view_all_teams">View all Teams</string>
+    <string name="search">Search</string>
+</resources>

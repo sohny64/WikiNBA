@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".ui.AboutTeamFragment"
+    android:paddingTop="50dp">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/founded_on"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"
+            android:paddingEnd="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/foundation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/city"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"
+            android:paddingEnd="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/arena"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"
+            android:paddingEnd="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/arena"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/head_coach"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"
+            android:paddingEnd="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/coach"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/titles"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"
+            android:paddingEnd="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/titles"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/g_league_affiliation"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"
+            android:paddingEnd="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/gLeague"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/retired_jerseys"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"
+            android:paddingEnd="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/jerseys"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/notable_players"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"
+            android:paddingEnd="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/notables"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </TableRow>
+
+</TableLayout>

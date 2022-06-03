@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".ui.AllTimeLeadersFragment"
+    android:paddingTop="50dp">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/all_time_points_leader"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="textEnd"
+                android:paddingEnd="15dp"
+                tools:ignore="RtlSymmetry"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/allTimePoints"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/all_time_assists_leader"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="textEnd"
+                android:paddingEnd="15dp"
+                tools:ignore="RtlSymmetry"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/allTimeAssists"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/all_time_rebounds_leader"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="textEnd"
+                android:paddingEnd="15dp"
+                tools:ignore="RtlSymmetry"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/allTimeRebounds"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/all_time_blocks_leader"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="textEnd"
+                android:paddingEnd="15dp"
+                tools:ignore="RtlSymmetry"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/allTimeBlocks"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/all_time_steals_leader"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="textEnd"
+                android:paddingEnd="15dp"
+                tools:ignore="RtlSymmetry"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/allTimeSteals"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+        </TableRow>
+
+</TableLayout>
